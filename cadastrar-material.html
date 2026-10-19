@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#16783b">
+  <title>Matéria Link — Cadastrar Material</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar" id="inicio"><div class="container nav-wrap">
+<a class="brand" href="index.html" aria-label="Matéria Link - início">
+  <img src="imagens/logo.png" alt="Matéria Link" class="brand-image">
+</a>
+<nav class="nav" aria-label="Navegação principal"><a href="index.html">Início</a><a href="empresas.html">Empresas</a><a href="materiais.html">Materiais</a><a href="mapa.html">Mapa</a><a href="painel-empresa.html">Área da empresa</a><a href="perfil.html">Meu perfil</a></nav>
+<a class="btn btn-small" href="acesso.html">Entrar <span>→</span></a></div></header>
+<main>
+<section class="section soft-section" id="cadastrar-material"><div class="container form-layout"><div class="form-intro"><span class="eyebrow">COMPARTILHE UM RECURSO</span><h2>Cadastre um material.</h2><p>Informe o que sua empresa tem disponível para doação ou venda e ajude esse material a ganhar uma nova vida.</p><div class="form-tip"><span>♻</span><strong>Descarte consciente começa com informação.</strong><p>Preencha os detalhes para apresentar seu material à comunidade.</p></div></div><form class="panel form-card" action="cadastrar-material.html"><h3>Cadastrar material</h3><p>Preencha os campos abaixo.</p><div class="field"><label for="tipo-material">Tipo de material</label><select id="tipo-material" required><option value="">Selecione o material</option><option>Plástico</option><option>Metal</option><option>Papel</option><option>Vidro</option><option>Eletrônico</option><option>Outros</option></select></div><div class="field"><label for="quantidade">Quantidade (kg)</label><input id="quantidade" type="number" min="1" placeholder="Ex.: 50" required></div><fieldset class="choice-field"><legend>Modalidade</legend><label><input type="radio" name="modalidade" checked> Doar</label><label><input type="radio" name="modalidade"> Vender</label></fieldset><div class="field"><label for="preco">Preço por kg (opcional)</label><input id="preco" type="text" placeholder="Ex.: R$ 1,20"></div><div class="field"><label for="descricao">Descrição (opcional)</label><textarea id="descricao" placeholder="Descreva o material e suas condições"></textarea></div><div class="field"><label for="localizacao">Localização</label><input id="localizacao" type="text" placeholder="Cidade e bairro"></div><button class="btn full-btn" type="submit">Publicar material →</button><p class="form-note">Formulário visual: o envio não é armazenado neste site estático.</p></form></div></section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><a class="brand brand-light" href="index.html">
+  <img src="imagens/logo.png" alt="Matéria Link" class="brand-image">
+</a><p>Conectando pessoas, empresas e um futuro mais sustentável.</p></div><div><h3>Explore</h3><a href="empresas.html">Empresas próximas</a><a href="materiais.html">Materiais</a><a href="mapa.html">Mapa de coleta</a><a href="cadastrar-material.html">Cadastrar material</a></div><div><h3>Minha conta</h3><a href="acesso.html">Entrar ou cadastrar</a><a href="favoritos.html">Meus favoritos</a><a href="perfil.html">Meu perfil</a><a href="solicitacoes.html">Solicitações</a><a href="mensagens.html">Mensagens</a></div></div><div class="container copyright">© 2026 Matéria Link · Projeto demonstrativo de sustentabilidade.</div></footer>
+</body>
+</html>
