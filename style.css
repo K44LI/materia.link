@@ -1589,3 +1589,32 @@ input[type=checkbox],input[type=radio] {
     padding:18px
   }
 }
+/* menu responsivo com Bootstrap */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    width: 100%;
+    padding: 12px 0 18px;
+  }
+
+  .navbar-nav {
+    gap: 6px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 12px;
+  }
+
+  .navbar-collapse .btn {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .navbar-toggler {
+    border-radius: 10px;
+    border-color: rgba(22, 120, 59, 0.3);
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem rgba(22, 120, 59, 0.15);
+  }
+}

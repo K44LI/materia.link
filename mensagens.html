@@ -5,20 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#16783b">
   <title>Matéria Link — Mensagens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topbar" id="inicio"><div class="container nav-wrap">
-<a class="brand" href="index.html" aria-label="Matéria Link - início">
-  <img src="imagens/logo.png" alt="Matéria Link" class="brand-image">
-</a>
-<nav class="nav" aria-label="Navegação principal"><a href="index.html">Início</a><a href="empresas.html">Empresas</a><a href="materiais.html">Materiais</a><a href="mapa.html">Mapa</a><a href="painel-empresa.html">Área da empresa</a><a href="perfil.html">Meu perfil</a></nav>
-<a class="btn btn-small" href="acesso.html">Entrar <span>→</span></a></div></header>
+<header class="topbar navbar navbar-expand-lg" id="inicio">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Matéria Link - início">
+      <img src="imagens/logo.png" alt="Matéria Link" class="brand-image">
+    </a>
+
+    <button class="navbar-toggler ms-auto" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#menuPrincipal"
+      aria-controls="menuPrincipal"
+      aria-expanded="false"
+      aria-label="Abrir ou fechar menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuPrincipal">
+      <nav class="navbar-nav ms-lg-auto" aria-label="Navegação principal">
+        <a class="nav-link" href="index.html">Início</a>
+        <a class="nav-link" href="empresas.html">Empresas</a>
+        <a class="nav-link" href="materiais.html">Materiais</a>
+        <a class="nav-link" href="mapa.html">Mapa</a>
+        <a class="nav-link" href="painel-empresa.html">Área da empresa</a>
+        <a class="nav-link" href="perfil.html">Meu perfil</a>
+      </nav>
+
+      <a class="btn btn-small ms-lg-3" href="acesso.html">
+        Entrar <span>→</span>
+      </a>
+    </div>
+  </div>
+</header>
 <main>
 <section class="section soft-section" id="mensagens"><div class="container chat-layout"><div class="filter-intro"><span class="eyebrow">CONVERSE COM A REDE</span><h2>Uma boa conexão começa com uma conversa.</h2><p>Combine a coleta, tire dúvidas e alinhe os detalhes do material.</p></div><div class="chat-window"><div class="chat-head"><div class="company-logo">♧</div><div><strong>EcoPack Embalagens</strong><small>● Online</small></div><span class="chat-menu">⋮</span></div><div class="chat-body"><p class="bubble sent">Olá! Gostaria de saber se vocês estão comprando plástico PET e qual o valor por kg.</p><small class="message-time sent-time">10:24 ✓✓</small><p class="bubble received">Olá! Sim, estamos comprando plástico PET. O valor é de R$ 1,20/kg para a quantidade que você tem disponível?</p><small class="message-time">10:37</small><p class="bubble sent">Tenho cerca de 50 kg.</p><small class="message-time sent-time">10:39 ✓✓</small><p class="bubble received">Ótimo! Podemos agendar para amanhã. Estamos à disposição!</p><small class="message-time">10:40</small></div><div class="chat-form"><input type="text" placeholder="Digite uma mensagem..." aria-label="Digite uma mensagem" disabled><button type="button" disabled>➤</button></div><p class="form-note chat-note">Prévia ilustrativa de conversa, sem envio de mensagens.</p></div></div></section>
 </main>
 <footer class="footer"><div class="container footer-grid"><div><a class="brand brand-light" href="index.html">
   <img src="imagens/logo.png" alt="Matéria Link" class="brand-image">
 </a><p>Conectando pessoas, empresas e um futuro mais sustentável.</p></div><div><h3>Explore</h3><a href="empresas.html">Empresas próximas</a><a href="materiais.html">Materiais</a><a href="mapa.html">Mapa de coleta</a><a href="cadastrar-material.html">Cadastrar material</a></div><div><h3>Minha conta</h3><a href="acesso.html">Entrar ou cadastrar</a><a href="favoritos.html">Meus favoritos</a><a href="perfil.html">Meu perfil</a><a href="solicitacoes.html">Solicitações</a><a href="mensagens.html">Mensagens</a></div></div><div class="container copyright">© 2026 Matéria Link · Projeto demonstrativo de sustentabilidade.</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
