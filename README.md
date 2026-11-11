@@ -1,5 +1,5 @@
 <p align="center">
-<img src="img/logo.png" alt="Matéria-Link" width="350">
+<img src="img/LOGOimg.png" alt="Matéria-Link" width="350">
 </p>
 <h3 align="center">Conectando pessoas, empresas e um futuro mais sustentável.</h3>
 <b>♲ Sobre o projeto </b> <br>
